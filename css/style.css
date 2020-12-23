@@ -1,0 +1,440 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400px;
+}
+/*<!-- footer start -->*/
+.navber{
+	background-color: black;
+
+}
+.wrapper{
+	width: 80%;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+	overflow: hidden;
+}
+.logo{
+	width: 7%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 9px;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600px;
+	text-decoration: none;
+	text-transform: capitalize;
+	margin: 0px 30px;
+	transition: .4s;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	color: #ff8b38;
+}
+/*<!-- footer end -->*/
+/*banner start*/
+.banner{
+	min-height: 500px;
+	background-image: url('../img/Axit-banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.b-content{
+	width: 50%;
+	/*border: 1px solid white;*/
+	margin-top: 100px;
+}
+.banner img{
+	width: 100px;
+
+}
+.banner h1{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300px;
+	line-height: 40px;
+
+}
+.b-p{
+	color: white;
+	margin-top: 20px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	text-align: justify;
+
+}
+
+.btn{
+	width: 200px;
+	height: 50px;
+	background-color:#ff8b38;
+	border: none;
+	outline: none;
+	color: white; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600px;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	margin-top: 20px;
+	
+
+
+}
+/*banner end*/
+/*social media start*/
+
+.social-media{
+	background-color: white;
+	-webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.body-h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700px;
+	
+
+
+
+}
+.s-m{
+	width: 40%;
+}
+.social-media p{
+	margin-bottom: 20px:
+
+
+}
+.social-left{
+	float: left;
+}
+.social-right{
+	float: right;
+	margin-top: 45px;
+
+}
+
+/*social media end*/
+/*<!-- about start -->*/
+.about{
+	margin: 80px 0px;
+	
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin-top: 15px;
+	
+
+}
+.box h2{
+	font-family: 'Open Sans', sans-serif;
+	font: 700px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+
+}
+.box1{
+	background-color: #ff8b38;
+
+}
+.box2{
+	background-color: 333333;
+	margin: 12px 0px;
+
+}
+.box3{
+	background-color: #ff8b38;
+
+}
+.about-left{
+	float: left;
+}
+
+.about-mid{
+	float: left;
+	width: 40%;
+	margin-left: 150px;
+	margin-bottom: 20px;
+
+}
+
+.about-right{
+	float: left;
+	/*border: 1px solid red;*/
+	margin-top: 50px;
+	margin-left: 150px;
+
+
+
+}
+.about-right img{
+	width: 100%;
+}
+#about-p{
+	color: black;
+	width: 40%;
+
+}
+/*<!-- about end -->*/
+/*blog-1 start*/
+.blog-1{
+	overflow: hidden;
+	margin: 100px 0px;
+
+}
+.b-1-l{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 45px;
+	-webkit-box-shadow: 2px 3px 29px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 29px -2px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 29px -2px rgba(0,0,0,0.75);
+
+}
+.b-1-l img{
+	width: 100%;
+
+}
+.b-1-r{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.b-1-r h1{}
+.b-1-r p{
+
+
+}
+.blog-h2{
+	margin-top: 50px;
+}
+.b-1-r h2{
+	
+	font-size: 16px;
+}
+.b-p-2{
+	color:black	;
+	margin-top: 20px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	text-align: justify;
+
+
+}
+
+
+
+
+
+
+/*blog-1 end*/
+
+
+
+/*blog-2 start*/
+.blog-2{
+	overflow: hidden;
+	margin: 100px 0px;
+
+}
+.blog-2-l{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 20px;
+
+}
+.blog-2-r{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: right;
+	-webkit-box-shadow: 2px 3px 29px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 29px -2px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 29px -2px rgba(0,0,0,0.75);
+
+}
+.blog-2-r img{
+	width: 100%;
+
+}
+/*blog-2 end*/
+.service{
+	margin: 100px 0px;
+}
+.s-h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300px;
+	font-size: 36px;
+	text-align: center;
+
+
+}
+.s-p{
+	text-align: center;
+}
+/*service end*/
+/*service-2 start*/
+.service-2{
+	overflow: hidden;
+	margin: 100px 0px;
+
+}
+.single{
+	width: 28%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-left: 50px;
+
+}
+.icon{
+	width: 10%;
+	display: block;
+	margin: 0px auto;
+
+}
+.icon img{
+	width: 100%;
+
+}
+.single h2{
+	text-align: center;
+
+}
+.single p{
+	text-align: center;
+
+}
+
+/*service-2 end*/
+
+/*team member start*/
+.team-member{
+	overflow: hidden;
+
+}
+.double{
+	width: 28%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	margin: 100px 0px;
+	float: left;
+	margin-left: 50px;
+	
+
+}
+.d-top{
+	
+}
+.d-top p{}
+.t-bottom{
+
+}
+.t-b-l{
+	width: 30%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+}
+.t-b-l img{
+	width: 100%;
+}
+.t-b-r{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float:left;
+
+}
+.t-b-r h2{
+	margin: 0px;
+	margin-top: 10px;
+
+}
+.t-b-r h3{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300px;
+	font-size: 16px;
+	text-transform: capitalize;
+
+
+}
+
+
+
+/*team member end*/
+
+/*style start*/
+.style{
+	min-height: 300px;
+	background-image: url('../img/Axit-style-Recovered.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 100px 0px;
+}
+.s-content{
+	margin-top: 55px;
+}
+.style h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300px;
+	font-size: 36px;
+	text-align: center;
+	color: white;
+}
+.style p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+
+
+}
+.s-btn{
+	text-align: center;
+}
+
+
+/*style end*/
+
+
+
+
+
